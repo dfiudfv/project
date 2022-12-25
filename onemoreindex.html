@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>документ</title>
+    <style>
+        .body{
+            background-color: #484848;
+        }
+        .header{
+            background-color: #484848;
+        }
+        .title{
+            background-color:#101010;
+            display: flex;
+            align-items: center;
+            height: 100px;
+            
+        }
+        .call-us{
+            display: flex;
+            margin-left: auto;
+            margin-right: 50px;
+            align-items: center;
+            column-gap: 30px;
+        }
+        .icon-email{
+            width: 40px;
+            height: auto;
+        }
+        .icon-twitter{
+            width: 40px;
+            height: auto;
+        }
+        .icon-inst{
+            width: 45px;
+            height: auto;
+        }
+        .icon-facebook{
+            width: 40px;
+            height: auto;
+        }
+        .HH{
+            color: white;
+            font-size: 50px;
+            padding-left: 100px;
+        }
+
+        .main-div{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .main-nav{
+            padding-top: 30px;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            padding-right: 50px;
+        }
+        .main-ul{
+            list-style: none;  
+            display: flex;
+            margin-top: auto;
+            margin-bottom: auto;
+            column-gap: 80px;
+            padding-top: 0;
+            
+        }
+        .main-ul a{
+            font-family: 'Courier New';
+            color: #D4D4D4;
+            text-decoration: none;
+            font-size: x-large;
+        }
+        .main-ul a:hover{
+            color: 	#A9A9A9;
+        }
+        .main-top{
+            display: flex;
+            
+        }
+        .about-us{
+            display: block;
+            padding-left: 189.95px;
+        }
+        .about-us h1{
+            font-family: 'Courier New';
+            color: #FFFFFF;
+            font-size: 40px;
+            line-height: 50px;
+        }.about-us p{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding-bottom: 30px;
+        }
+        .osn-logo{
+            width: 500px;
+            padding-left: 200px;
+            
+        }
+        .about-us-top{
+            display: flex;
+        }
+        .history{
+            margin-bottom: 50px;
+        }
+        .btn{
+            cursor: pointer;
+            background-color: #FFCB06;
+            align-items: center;
+            border-radius: 30px;
+            width: 300px;
+            height: 60px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .btn:hover{
+            background-color: #cacaca;
+        }
+        .main-main{
+            background-color: #484848;
+            display: block;
+            font-family: 'Courier New';
+            color: #FFFFFF;
+            font-size: 20px;
+            line-height: 50px;
+            
+        }
+        .main-section{
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+
+        }
+        .home5{
+            color: orange;
+            font-size: xx-large;
+        }
+        .all-icons{
+            display: flex;
+            column-gap: 50px;
+            padding-top: 30px;
+            justify-content: center;
+        }
+        .icon-1{
+            width: 300px;
+            height: 450px;
+            border-color: orange;
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 5px;
+            background: url(../project/icon-1.jpg);
+            
+        }
+        .icon-2{
+            width: 300px;
+            height: 450px;
+            border-color: orange;
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 5px;
+            background: url(../project/icon-2.jpg);
+        }
+        .icon-3{
+            width: 300px;
+            height: 450px;
+            border-color: orange;
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 5px;
+            background: url(../project/icon-3.jpg);
+        }
+        .icon-4{
+            width: 300px;
+            height: 450px;
+            border-color: orange;
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 5px;
+            background: url(../project/icon-4.jpg);
+            
+        }
+        .icon {
+            display: flex;
+            align-items: flex-end;
+        }
+        .icon-text{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .whisky{
+            background-color: #484848;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+        .whisky-market{
+            background-color: #D4D4D4;
+            height: 100px;
+        }
+        .seans-h4{
+            display: flex;
+            justify-content: center;
+            color: orange;
+            font-size: 40px;
+        }
+        .whisky-ul{
+            font-size: xx-large;
+        }
+        .whisky1{
+            display: flex;
+        }
+        .whisky2{
+            display: flex;
+        }
+        .ul-p{
+            font-family: 'Open Sans';
+            margin-left: 100px;
+            font-size: 25px;
+        }
+        .img-whisky1{
+            margin-left: 80px;
+            width: 150px;
+            height: auto;
+            padding-top: 150px;
+        }
+        .img-whisky2{
+            margin-left: 80px;
+            width: 150px;
+            height: auto;
+            padding-top: 10px;
+        }
+        .whisky-button{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            height: 150px;
+            background-color: #7fbcd5;
+            border-color: red;
+        }
+        .whisky-btn{
+            cursor: pointer;
+            background-color: #FFCB06;
+            border-radius: 30px;
+            width: 350px;
+            height: 60px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 60px;
+            
+        }
+        .whisky-btn:hover{
+            background-color: #cacaca;
+        }
+        .qwerty{
+            font-size: 30px;
+            display: flex;
+            color: whitesmoke;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-right: 50px;
+        }
+        .end{
+            height: 150px;
+        }
+        .end-1-p{
+            margin-left: 60px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .end-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 150px;
+            background-color: #7fbcd5;
+            border-color: red;
+        }
+        .end-2-btn{
+            cursor: pointer;
+            background-color: #FFCB06;
+            border-radius: 30px;
+            width: 350px;
+            height: 60px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 60px;
+            margin-left: auto;
+        }
+        .end-2-btn:hover{
+            background-color: #cacaca;
+        }
+        .ahdfkjhdfg{
+            font-size: 37px;
+            display: flex;
+            color: whitesmoke;
+            margin-left: 60px;
+            
+        }
+    </style>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="title"><h1 class="HH">Sean's Bar _ Ireland /  W37 DW76</h1>
+            <div class="call-us">
+                <a href="#"><img src="../project/icon-email4.png" alt="EMAIL" class="icon-email"></a>
+                <a href="#"><img src="../project/icon-twitter.png" alt="PHONE" class="icon-twitter"></a>
+                <a href="#"><img src="../project/icon-inst.png" alt="INST" class="icon-inst"></a>
+                <a href="#"><img src="../project/icon-facebook.png" alt="FACEBOOK" class="icon-facebook"></a>
+            </div>
+        </div>
+            <div class="main-div">
+                <nav class="main-nav">
+                    <div class="main-top">
+                        <a href="#"><img src="beer2.png" alt="LOGO" class="logo"></a>
+                        <ul class="main-ul">
+                                <li><a href="#">Welcome</a></li>
+                                <li><a href="#">Ирландский виски Sean's bar</a></li>
+                                <li><a href="#">Галерея Sean's</a></li>
+                        </ul>
+                    </div>
+                        <div class="about-us-top">
+                            <div class="about-us">
+                                <h1>Самый старый<br> бар Ирландии</h1>
+                                <p>Большой выбор алкогольных напитков<br>Очень уютная и приятная атмосфера<br>Очень богатая и интересная история<br>Все это вы сможете найти в пабе Sean's bar</p>
+                                <div class="history"><a href="#" class="btn">ИСТОРИЯ БАРА</a></div>
+                            </div> 
+                                <div class="IMG"><img src="bar.jpg" alt="KTO UKRAL BAR" class="osn-logo"></div>
+                        </div>     
+                </nav>
+            </div>
+    </header>
+    <hr>
+        <main class="main-main">
+                <div class="main-section">
+                    <div class="all-icons">
+                        <div class="icon icon-1"></div>
+                        <div class="icon icon-2"></div>
+                        <div class="icon icon-3"></div>
+                        <div class="icon icon-4"></div>
+                    </div>
+                    <p class="icon-text">Расположенный в самом сердце Ирландии, на полпути между Дублином и Голуэем, бар Sean's является частью жизни и души Атлона, графство Уэстмит.
+
+
+                        Шон принимает посетителей со всего мира. Независимо от того, изучаете ли вы историю, слушаете музыку, встречаетесь с друзьями и семьей или просто наслаждаетесь идеальной пинтой пива, привлекательность одинаково сильна для всех. Внесенный в список «25 самых невероятных баров в мире» и «50 баров, которые взорвут ваш мозг» от Lonely Planet, посещение Шона является обязательным! Еще более удивительным является то, что бар Sean's Bar был официально признан Книгой рекордов Гиннеса старейшим пабом Ирландии. Узнайте больше о том, почему Sean's не только самый старый, но и один из самых любимых пабов в мире.
+                        
+                        
+                        С музыкой 7 вечеров в неделю, живыми выступлениями групп, плавными пинтами, наэлектризованной атмосферой и старым добрым ирландским крейком, неудивительно, что Sean's Bar был избранным местом для многих на протяжении более 10 веков.</p>
+                        <h3 class="home5"><em>Sláinte Agus Céad Míle Fáilte A Sean's Bar!</em></h3>
+                </div>
+<hr>
+            <section class="whisky">
+                    <div class="main-whisky">
+                            <h4 class="seans-h4"><strong>Ирландский виски Sean's</strong></h4>
+
+
+
+                            <div class="whisky1">
+                                <div>
+                                    <ul class="whisky-ul"><li>Специально смешанный виски "Luain Edition"</li></ul>
+                                    <p class="ul-p">Мы создали собственную уникальную смесь зернового и солодового виски, выдержанную в течение длительного времени в бочках из-под бурбона. Этот специально смешанный ирландский виски ограниченной серии производится в соответствии с высочайшим качеством и своим характерным вкусом порадует вкус и согреет дух.
+                                        <br><br>
+                                        Этот виски посвящен Луаину, самому первому трактирщику в баре Шона. Луэйн вел людей через коварные воды древнего брода, и этот переправочный пункт и паб датируются 900 годом нашей эры. Позже вокруг этого стратегического переправочного пункта было основано поселение, где король Терлоу О'Коннор построил первый деревянный замок в 1129 году. Сегодня город Атлон, или átha Luain по-ирландски, получил свое название от самого Луайна и паба, вокруг которого был построен город.</p>
+                                </div>
+                                    <div><img src="whisky-1.jpg" alt="#" class="img-whisky1"></div>
+                            </div>
+                            
+                            
+
+                            <div class="whisky2">
+                                <div>
+                                    <ul class="whisky-ul"><li>Односолодовый виски "Clonmacnoise"</li></ul>
+                                    <p class="ul-p">Односолодовый виски Sean’s Bar Clonmacnoise, впервые выпущенный в 2018 году, — дань уважения монахам этих монастырей, которые веками развивали и совершенствовали искусство дистилляции. Именно эти монахи придумали словосочетание Aqua Vitae или Uisce Beatha, как оно стало известно позже, а также в анналах Клонмакнойса записали первое упоминание о виски.</p>
+                                </div>
+                                    <div><img src="whisky-2.jpg" alt="#" class="img-whisky2"></div>
+                            </div>       
+                    </div> 
+            </section>
+
+                <div class="whisky-button">
+                        <a href="https://www.seansbar.ie/merchandise/whiskey" class="whisky-btn"><strong><p>КУПИТЬ ВИСКИ SEAN'S</p></strong> </a>
+                        <div class="qwerty"><h5>Купите виски Sean's Online и получите удовольствие от Sean's Experience прямо к вашей двери</h5></div>
+                </div>
+                
+                <div class="end">
+                    <p class="end-1-p">В Sean's Bar мы гордимся тем, что продаем наш собственный ассортимент фирменных товаров. С международной доставкой, доступной для всех товаров, наши рубашки и шляпы станут отличным подарком для других или для себя. Оживите опыт Шона с вашим собственным товаром Sean's Bar.</p>
+                </div>
+
+                <div class="end-2">
+                    <div class="ahdfkjhdfg"><h6>Покупайте полный ассортимент Sean's в Интернете — доступна международная доставка</h6></div>
+                    <a href="https://www.seansbar.ie/merchandise" class="end-2-btn"><strong>КУПИТЬ МЕРЧ SEAN'S</strong></a>
+                </div>
+        </main>
+
+        <footer class="end-input">
+            
+        </footer>
+
+
+
+
+</body>
+</html>
